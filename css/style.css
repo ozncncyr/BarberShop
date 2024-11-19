@@ -5,7 +5,8 @@ body {
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
 
@@ -15,15 +16,16 @@ header {
     height: 100vh;
 }
 
-#nav-container-left{
+#nav-container-left {
     width: 155px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-size: 11px;
     font-weight: 600;
-    
+
 }
+
 #nav-container-left div img {
     width: 68.93px;
     height: 55.46px;
@@ -40,28 +42,32 @@ header {
     flex-direction: row;
     gap: 40px;
 }
-.nav-container-left-bottom hr{
+
+.nav-container-left-bottom hr {
     width: 0px;
     height: 60px;
     border: 1px solid #303030;
 }
-.nav-container-left-bottom{
+
+.nav-container-left-bottom {
     display: flex;
     gap: 40px;
     flex-direction: column;
 }
-.nav-container-left-bottom ul li:first-child{
-    color:#FF6C00
+
+.nav-container-left-bottom ul li:first-child {
+    color: #FF6C00
 }
 
 #nav-container-right {
     width: 100%;
     background-image: url("../images/headerImage.jpg");
-    background-repeat: no-repeat;  
-    background-position: center;  
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
-#navbar{
+
+#navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,7 +75,8 @@ header {
     margin-left: 54px;
     margin-right: 55px;
 }
-#navbar-left ul{
+
+#navbar-left ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -77,18 +84,20 @@ header {
     gap: 40px;
 }
 
-#navbar-right{
+#navbar-right {
     display: flex;
     flex-direction: row;
     gap: 40px;
     align-items: center;
 }
-#navbar-right a{
+
+#navbar-right a {
     text-decoration: none;
     color: white;
     font-size: 12px;
     font-weight: 600;
 }
+
 .button-comp-white {
     width: 160px;
     height: 40px;
@@ -101,6 +110,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.09em;
 }
+
 .button-comp-black {
     width: 160px;
     height: 40px;
@@ -114,13 +124,14 @@ header {
     letter-spacing: 0.09em;
 }
 
-#title-main{
+#title-main {
     width: 500px;
     height: 202px;
     margin-top: 272px;
     margin-left: 100px;
 }
-#title-main div{
+
+#title-main div {
     display: inline-flex;
     flex-direction: row;
     color: #9DA4BD;
@@ -128,12 +139,14 @@ header {
     gap: 20px;
 
 }
-#title-main div hr{
+
+#title-main div hr {
     width: 60px;
     height: 0;
     border: 1px solid #9DA4BD;
 }
-#title-main h1{
+
+#title-main h1 {
     width: 500px;
     font-size: 72px;
     font-weight: bold;
@@ -144,12 +157,12 @@ header {
     margin-bottom: 0;
 }
 
-#title-main p{
+#title-main p {
     font-size: 18px;
-    color:#9DA4BD
+    color: #9DA4BD
 }
 
-#next-back{
+#next-back {
     position: absolute;
     bottom: 40px;
     right: 55px;
@@ -157,16 +170,19 @@ header {
     flex-direction: row;
     gap: 26px;
 }
-#next-back div{
+
+#next-back div {
     width: 60px;
     height: 24px;
-    
+
 }
-#next-back div a{
+
+#next-back div a {
     text-decoration: none;
     color: white;
 }
-.next a{
+
+.next a {
     display: flex;
     justify-content: end;
 }
@@ -187,18 +203,21 @@ header {
     height: 445px;
     gap: 30px;
 }
-.about-right-top-title{
+
+.about-right-top-title {
     display: inline-flex;
     flex-direction: row;
     align-items: center;
     gap: 20px;
 }
-.about-right-top-title hr{
+
+.about-right-top-title hr {
     width: 60px;
     height: 0;
     border: 1px solid #303030;
 }
-.about-right-top-title h6{
+
+.about-right-top-title h6 {
     font-size: 11px;
     text-transform: uppercase;
     font-weight: 600;
@@ -206,26 +225,27 @@ header {
     margin: 0;
 }
 
-#about-right h2{
+#about-right h2 {
     font-size: 42px;
     font-weight: bold;
     font-family: "Raleway";
     letter-spacing: 0.05em;
     line-height: normal;
-    color:#303030;
+    color: #303030;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.about-right-first{
+.about-right-first {
     height: 60px;
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 0.02em;
-    color:#555555;
+    color: #555555;
     margin-bottom: 20px;
 }
-.about-right-second{
+
+.about-right-second {
     font-size: 14px;
     line-height: 26px;
     letter-spacing: 0.02em;
@@ -235,75 +255,143 @@ header {
 
 /* section 3 */
 
-#services-and-prices{
-    /* background-image: url("../images/services-prices.jpg"); */
+#services-and-prices {
+    background-color: rgba(17, 19, 25, 0.6);
+    padding-left: 57px;
+    padding-right: 55px;
+    position: relative;
+    height: 718px;
+}
+
+.imgbg {
+    background-image: url("../images/headerImage.jpg");
     background-repeat: none;
     background-position: center;
     background-size: cover;
-    padding-left: 57px;
-    padding-right: 55px;
-    background-color: #111319;
+    position: absolute;
+    width: 100%;
+    height: 718px;
+
 }
 
 #services-and-prices-title-info {
     display: inline-flex;
     flex-direction: row;
     margin: 0;
-    gap:20px;
+    gap: 20px;
     color: #9DA4BD;
     align-items: center;
     margin-top: 130px;
 }
-#services-and-prices-title-info hr{
+
+#services-and-prices-title-info hr {
     width: 60px;
     height: 0;
     border: 1px solid #9DA4BD;
 }
 
-#services-and-prices-title-titlemain h2{
-   font-family: "Raleway";
-   font-size: 42px;
-   font-weight: bold;
-   letter-spacing: 0.05em;
-   color: white; 
+#services-and-prices-title-titlemain h2 {
+    font-family: "Raleway";
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    color: white;
+    margin: 0;
 }
 
-#services-and-prices-prices{
+#services-and-prices-prices {
     display: flex;
     flex-direction: row;
 }
 
-#services-and-prices-prices-left{
+#services-and-prices-prices-left ul {
+    margin: 0;
+    padding: 0;
     display: flex;
-    padding: 38px;
-    background:linear-gradient(180deg, rgb(23,26,36), rgb(23,26,36,0.2));
+    flex-direction: column;
+    gap: 20px;
+    height: max-content;
+}
+
+#services-and-prices-prices-left {
+    display: flex;
+    background: linear-gradient(180deg, rgb(23, 26, 36), rgb(23, 26, 36, 0.2));
     width: 585px;
-    
+    /* height: 180px; */
+    margin-top: 46px;
+    padding: 28px 42px 32px 38px;
+
+
 }
 
-#services-and-prices-prices-right{
-    padding: 38px;
-    /* width: 585px; */
-}
-
-
-#services-and-prices-prices-left ul li div{
+#services-and-prices-prices-left ul li div {
     width: 505px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 0.02em;
     color: #9DA4BD;
-    align-items: center;
-    gap: 20px;
+    align-items: flex-end;
+    gap: 6px;
+    width: max-content;
 }
-#services-and-prices-prices-left ul li div hr{
+
+#services-and-prices-prices-left ul li div hr {
     width: 248px;
     height: 0;
-    border: 1px solid #9DA4BD;
+    border: 1px solid rgba(157, 164, 189, 0.5);
     margin: 0;
 }
 
+#services-and-prices-prices-right {
+    padding: 38px;
+    /* width: 585px; */
+}
 
+#services-and-prices-prices-right ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#services-and-prices-prices-right {
+    display: flex;
+    background: linear-gradient(180deg, rgb(9, 11, 19), rgba(9, 11, 19, 0.2));
+    width: 585px;
+    /* height: 180px; */
+    margin-top: 46px;
+    padding: 28px 42px 32px 38px;
+
+
+}
+
+#services-and-prices-prices-right ul li div {
+    width: 505px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+    align-items: flex-end;
+    gap: 6px;
+    width: max-content;
+}
+
+#services-and-prices-prices-right ul li div hr {
+    width: 248px;
+    height: 0;
+    border: 1px solid rgba(157, 164, 189, 0.5);
+    margin: 0;
+}
+
+#services-and-prices-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
