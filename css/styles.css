@@ -6,6 +6,10 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+h4, h5{
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
 }
@@ -408,3 +412,188 @@ header {
     white-space: nowrap; 
 }
 
+/* why do us */
+
+#why-do-us{
+    height: 582px;
+    width: 100%;
+    display: flex;
+    gap: 130px;
+}
+
+#why-do-us-left{
+    display: flex;
+    position: relative;
+}
+
+.left-box{
+    margin-top: 128px;
+    margin-left: 155px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 30px;
+    margin-top: 163px;
+}
+
+.why-do-us-box{
+    box-sizing: border-box;
+    width: 170px;
+    height: 133px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 24px;
+    gap: 6px;
+}
+
+.number{
+    font-size: 42px;
+    color: #303030;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.plus{
+    font-size: 16px;
+    color: #ff6c00;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.text{
+    font-size: 11px;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+#why-do-us-right{
+    margin-top: 157px;
+    box-sizing: border-box;
+}
+
+#why-do-us-right div{
+    margin: 0;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #303030;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+#why-do-us-right div h5 {
+    font-weight: 600;
+}
+
+#why-do-us-right div hr{
+    width: 60px;
+    height: 0;
+    border: 1px solid #303030;
+    opacity: 0.6;
+}
+
+#why-do-us-right h2 {
+    font-size: 42px;
+    font-family: "Raleway";
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    min-width: 420px;
+    margin: 0;
+    line-height: auto;
+}
+
+#why-do-us-right p{
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    min-width: 470px;
+    line-height: 1.17;
+    color: #555555;
+}
+
+/* Our Barbers */
+
+#our-barbers{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 130px 55px;
+}
+
+.our-barbers-title-main{
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    height: 15px;
+    opacity: 0.6;
+}
+
+#our-barbers hr{
+    width: 60px;
+    height: 0;
+    border: 1px solid #303030;
+    margin: 0;    
+}
+
+#our-barbers h2{
+    margin-top: 20px;
+    font-size: 42px;
+    font-family: "Raleway";
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    min-width: 420px;
+    margin: 0;
+    line-height: auto;
+    color: #303030;
+}
+.image-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 44px;
+    gap: 30px;
+}
+
+.image-container > div{
+    width: 370px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.name-title{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.our-barbers-image{
+    width: 370px;
+    height: 346px;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
