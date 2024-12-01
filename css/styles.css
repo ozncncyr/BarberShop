@@ -583,7 +583,6 @@ header {
 .name-title{
     display: flex;
     flex-direction: column;
-    gap: 8px;
 }
 
 .our-barbers-image{
